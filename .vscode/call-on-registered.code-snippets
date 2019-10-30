@@ -1,0 +1,11 @@
+{
+    "registered": {
+        "prefix": "call-on-registered",
+        "body": [
+            "ua.on('registered', () => {",
+            "  window.session = ua.call(`sip:enpoint@asteriskDomain`, options);",
+            "});"
+        ],
+        "description": "call on register"
+    }
+}

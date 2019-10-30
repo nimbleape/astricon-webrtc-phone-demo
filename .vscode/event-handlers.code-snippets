@@ -1,0 +1,23 @@
+{
+    "event-handlers": {
+        "prefix": "event-handlers",
+        "body": [
+            "// Register callbacks to desired call events",
+            "let eventHandlers = {",
+            "  progress: (e) => {",
+            "    console.log('call is in progress');",
+            "  },",
+            "  failed: (e) => {",
+            "    console.log(`call failed with cause: ${e.data.cause}`);",
+            "  },",
+            "  ended: (e) => {",
+            "    console.log(`call ended with cause: ${e.data.cause}`);",
+            "  },",
+            "  confirmed: (e) => {",
+            "    console.log('call confirmed');",
+            "  }",
+            "};"
+        ],
+        "description": "insert jssip event handlers"
+    }
+}

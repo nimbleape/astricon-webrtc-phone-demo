@@ -1,0 +1,14 @@
+{
+  "name": "astricon-jssip-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dan Jenkins <dan.jenkins88@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "jssip": "^3.3.11"
+  },
+  "scripts": {
+    "start": "http-server ."
+  }
+}

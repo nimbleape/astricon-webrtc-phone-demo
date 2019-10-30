@@ -1,0 +1,18 @@
+{
+    "start": {
+        "prefix": "start",
+        "body": [
+            "const socket = new JsSIP.WebSocketInterface('wss://astriskDomain/ws');",
+            "const configuration = {",
+            "  sockets  : [ socket ],",
+            "  uri      : 'sip:user@asteriskDomain',",
+            "  password : 'password'",
+            "};",
+            "",
+            "let ua = new JsSIP.UA(configuration);",
+            "",
+            "ua.start();"
+        ],
+        "description": "jssip ua creation"
+    }
+}
